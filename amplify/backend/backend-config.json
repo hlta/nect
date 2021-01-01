@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "nectd79ca8a7": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
