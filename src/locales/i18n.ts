@@ -1,13 +1,21 @@
 import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-
+import { I18n } from 'aws-amplify';
 import en from './en/translation.json';
+import vi from './vi/translation.json';
+import { amplifyUITranslationVi } from './vi/amplify-translation';
 import { convertLanguageJsonToObject } from './translations';
+
+// Amplify i18n
+I18n.putVocabulariesForLanguage('vi', amplifyUITranslationVi);
 
 export const translationsJson = {
   en: {
     translation: en,
+  },
+  vi: {
+    translation: vi,
   },
 };
 

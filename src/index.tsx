@@ -12,6 +12,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import * as serviceWorker from 'serviceWorker';
+import Amplify from 'aws-amplify';
 
 // Use consistent styling
 import 'sanitize.css/sanitize.css';
@@ -25,6 +26,10 @@ import { configureAppStore } from 'store/configureStore';
 
 // Initialize languages
 import './locales/i18n';
+
+// AWS amplify
+import awsconfig from './aws-exports';
+Amplify.configure(awsconfig);
 
 const store = configureAppStore();
 const MOUNT_NODE = document.getElementById('root') as HTMLElement;

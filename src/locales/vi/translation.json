@@ -1,0 +1,12 @@
+{
+  "authStateApp": {
+    "emailLabel": "Email",
+    "emailPlaceholder": "Email của bạn",
+    "passwordLabel": "Mật khẩu",
+    "passwordPlaceholder": "Mật khẩu của bạn",
+    "firstNameLabel": "Tên",
+    "firstNamePlaceholder": "Minh",
+    "lastNameLabel": "Họ",
+    "lastNamePlaceholder": "Nguyễn"
+  }
+}

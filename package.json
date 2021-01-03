@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-amplify/ui-components": "0.9.8",
+    "@aws-amplify/ui-react": "0.2.33",
     "@reduxjs/toolkit": "1.4.0",
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.0.2",
@@ -20,6 +22,7 @@
     "@types/testing-library__jest-dom": "5.9.2",
     "@types/webpack": "4.41.22",
     "@types/webpack-env": "1.15.2",
+    "aws-amplify": "3.3.13",
     "chalk": "4.1.0",
     "cross-env": "7.0.2",
     "eslint-config-prettier": "6.11.0",
