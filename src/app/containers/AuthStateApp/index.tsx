@@ -63,7 +63,7 @@ export function AuthStateApp(props: Props) {
                 required: true,
               },
               {
-                type: 'first_name',
+                type: 'given_name',
                 label: t(messages.firstNameLabel),
                 placeholder: t(messages.firstNamePlaceholder),
                 required: true,
